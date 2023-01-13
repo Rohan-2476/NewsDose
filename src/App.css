@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+/* Navbar */
+.navbar {
+    background: rgba(0, 0, 0, 0.46);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-title {
+    font-weight: 700;
+    font-family: 'Kalam', cursive;
+    color: rgba(255, 255, 255, 0.452);
+    margin: 0 60px 0 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-title:hover {
+    font-weight: 800;
+    font-family: 'Kalam', cursive;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link {
+    font-weight: 300;
+    font-family: 'Kalam', cursive;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    margin-right: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Main page */
+.title {
+    font-family: 'Kalam', cursive;
+    font-weight: 800;
+    color: rgb(93, 75, 75);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.category {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: rgb(93, 75, 75);
+}
+
+/* cards */
+
+.card_img {
+    max-height: 220px;
+}
+
+.card-title {
+    font-weight: 800;
+}
+
+.read_more_btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.read_more_btn:hover {
+    background: #444;
+    border-radius: 7px;
+    transform: scale(1.08);
+}
+
+.news_card {
+    height: 570px;
+    transition: transform .2s;
+}
+
+.news_card:hover {
+    transform: scale(1.07);
+    border-radius: 12px;
 }
