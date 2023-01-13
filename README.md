@@ -31,7 +31,7 @@ A daily dose of news while you sip a coffee in the morning to keep you updated w
 
 ### If you find any errors or suggestions, feel free to connect with me and help me learn and grow with you!
 
-IDE: VS Code
-Framework: React.JS
-Author: github.com/Rohan-2476
-LinkedIn: linkedin.com/in/RohanSuradkar250796
+<b>IDE</b>: VS Code <br>
+<b>Framework</b>: React.JS <br>
+<b>Author</b>: github.com/Rohan-2476 <br>
+<b>LinkedIn</b>: linkedin.com/in/RohanSuradkar250796 <br>
